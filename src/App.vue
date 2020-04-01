@@ -6,7 +6,7 @@
 
 <script>
 // Imports
-import showBlogs from './components/showBlogs.vue';
+import showBlogs from './components/showBlog.vue';
 export default {
     components: {
         'show-blogs': showBlogs
