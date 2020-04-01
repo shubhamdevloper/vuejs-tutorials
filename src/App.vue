@@ -7,8 +7,8 @@
 
 <script>
 // Imports
-import showBlogs from './components/showBlogs.vue';
-import listBlogs from './components/listBlogs.vue';
+import showBlogs from './components/showBlog.vue';
+import listBlogs from './components/listBlog.vue';
 export default {
     components: {
         'show-blogs': showBlogs,

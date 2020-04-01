@@ -10,7 +10,7 @@
 
 <script>
 // Imports
-import searchMixin from '../mixins/searchMixin';
+import Mixin from '../Mixin/Mixin';
 export default {
     data () {
         return {
@@ -23,7 +23,7 @@ export default {
             this.blogs = data.body.slice(0,10);
         });
     },
-    mixins: [searchMixin]
+    mixins: [Mixin]
 }
 </script>
 
